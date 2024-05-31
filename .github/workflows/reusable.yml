@@ -8,7 +8,7 @@ on:
         type: string
         required: true
         default: World
-   outputs:
+    outputs:
       current-time: ${{ steps.time.outputs.time }}
       
 jobs:
